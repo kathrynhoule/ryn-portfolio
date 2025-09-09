@@ -8,9 +8,11 @@
   --navbar-width: 128px;
 
   --bg-primary: #181840;
-  --bg-secondary: #282882;
+  --bg-secondary: #8878d0;
+  --bg-tertiary: #4868e8;
+  --bg-tertiary-shadow: #6431da;
 
-  --text-primary: #adb5bd;
+  --text-primary: rgb(217, 225, 233);
   --text-heading: #ffffff;
   --text-accent: #8878d0;
 
