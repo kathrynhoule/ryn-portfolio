@@ -1,11 +1,24 @@
 import React from 'react'
+import '../styles/About.css';
 
 const About = () => {
   return (
-          <div>
-               <h1>About Me</h1>
-               <p>This is some stuff about me!</p>
-          </div>
+          <div className='about-container'>
+                    <div className='intro-container'>
+                      <h1>Hi, I'm Ryn!</h1>
+                    </div>
+          
+                    <div className='avatar-container'>
+                      <img src='/assets/temp-avatar.png' alt='Avatar' />
+                    </div>
+          
+                    <div className='about-block'>
+                      <div className='about-me'>
+                        <h3>About Me</h3>
+                        <p>Placeholder text</p>
+                      </div>
+                    </div>
+                  </div>
   )
 }
 
