@@ -5,7 +5,9 @@
   --font-main: 'IBM Plex Mono', monospace;
   --font-title: 'Press Start 2P', cursive;
 
-  --bg-main: #181840;
+  --navbar-width: 200px;
+
+  --bg-primary: #181840;
   --bg-secondary: #282882;
 
   --text-main: #adb5bd;
