@@ -1,0 +1,21 @@
+/* colour palette from https://lospec.com/palette-list/pokemon-puzzle-challenge */
+/* perhaps just a temporary palette until i finalize */
+
+:root {
+  --font-main: 'IBM Plex Mono', monospace;
+  --font-title: 'Press Start 2P', cursive;
+
+  --bg-main: #181840;
+  --bg-secondary: #282882;
+
+  --text-main: #adb5bd;
+  --text-heading: #ffffff;
+  --text-accent: #8878d0;
+
+  --accent-primary: #98a8f8;
+  --accent-secondary: #3ca5cc;
+  --accent-hover: #f868c8;
+
+  --accent-pop: #10ffff;
+  --accent-vibrant: #3928ff;
+}
