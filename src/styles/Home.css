@@ -1,26 +1,26 @@
 .home-container {
      display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     grid-template-rows: 1fr auto auto 1fr;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: minmax(4rem, auto) minmax(200px, auto) minmax(150px, auto) 1fr;
      gap: 2rem;
      padding: 2rem;
      height: 100vh;
+     align-items: start;
 }
 
 .welcome-container {
      grid-column: 1 / 4;
-     grid-row: 1 / 2;
      display: flex;
      justify-content: center;
      align-items: center;
-     padding: 1em;
+     padding: 2rem;
      border-radius: 8px;
      background-color: var(--bg-secondary);
+     color: var(--text-heading)
 }
 
 .avatar-container {
      grid-column: 1 / 2;
-     grid-row: 2 / 3;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -48,26 +48,26 @@
 }
 
 .projects-link {
-  grid-column: 3 / 4;
-  grid-row: 2 / 3;
+     grid-column: 3 / 4;
+     grid-row: 2 / 3;
 }
 
 .about-link {
-  grid-column: 2 / 3;
-  grid-row: 2 / 3;
+     grid-column: 2 / 3;
+     grid-row: 2 / 3;
 }
 
 .contact-link {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
+     grid-column: 2 / 3;
+     grid-row: 3 / 4;
 }
 
 .home-link:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+     transform: translateY(-4px);
+     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .home-link img {
-  width: 50px;
-  height: 50px;
+     width: 50px;
+     height: 50px;
 }
