@@ -12,7 +12,21 @@ const Home = () => {
           </div>
 
           <div className='avatar-container'>
-            <img src='/assets/temp-avatar.png' alt='Avatar' />
+            <div className='avatar-content'>
+              <img src='/assets/temp-avatar.png' alt='Avatar' />
+
+              <ul className='quick-facts'>
+                <li>React Dev</li>
+                <li>Creative Coder & Designer</li>
+                <li>Based in Canada</li>
+              </ul>
+
+              <div className='avatar-icons'>
+                <img src='/assets/temp-projects-icon.png' alt='Paintbrush' />
+                <img src='/assets/temp-projects-icon.png' alt='Pigeon' />
+                <img src='/assets/temp-projects-icon.png' alt='Coffee' />
+              </div>
+            </div>
           </div>
 
           {homeLinks.map((link, index) => (
