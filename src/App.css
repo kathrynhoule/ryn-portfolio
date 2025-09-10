@@ -1,5 +1,11 @@
 @import './styles/vars.css';
 
+html, body {
+     margin: 0;
+     padding: 0;
+     height: 100%;
+}
+
 .app-container {
      display: flex;
      justify-content: center;
