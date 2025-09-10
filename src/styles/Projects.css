@@ -3,7 +3,8 @@
      grid-template-columns: repeat(3, minmax(128px, 192px));
      grid-template-rows:
           3rem
-          256px;
+          256px
+          3rem;
      gap: 2rem 0.8rem;
      padding: 8rem 0rem 0rem 20rem;
      align-items: start;
@@ -77,4 +78,9 @@
      margin-bottom: 0.5rem;
      border-radius: 4px;
      object-fit: contain;
+}
+
+.projects-footer {
+     grid-column: 1 / 4;
+     grid-row: 3;
 }

@@ -3,6 +3,7 @@ import '../styles/Projects.css';
 import { Link } from 'react-router-dom';
 import ProjectCard from '../components/ProjectCard';
 import projectCards from '../data/projectCards';
+import Footer from '../components/Footer';
 
 const Projects = () => {
   return (
@@ -14,6 +15,10 @@ const Projects = () => {
           {projectCards.map((link, index) => (
             <ProjectCard key={index} {...link} />
           ))}
+
+          <div className="projects-footer">
+            <Footer />
+          </div>
         </div>
   )
 }
