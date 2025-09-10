@@ -2,11 +2,11 @@
      display: grid;
      grid-template-columns: repeat(3, minmax(128px, 192px));
      grid-template-rows:
-        3rem
-        minmax(128px, auto)
-        1rem
-        minmax(128px, auto)
-        auto;
+          3rem
+          minmax(128px, auto)
+          1rem
+          minmax(128px, auto)
+          auto;
      gap: 0.8rem;
      padding: 8rem 0rem 0rem 20rem;
      align-items: start;

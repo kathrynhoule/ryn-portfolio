@@ -2,12 +2,9 @@
      display: grid;
      grid-template-columns: repeat(3, minmax(128px, 192px));
      grid-template-rows:
-        3rem
-        minmax(128px, auto)
-        1rem
-        minmax(128px, auto)
-        auto;
-     gap: 0.8rem;
+          3rem
+          256px;
+     gap: 2rem 0.8rem;
      padding: 8rem 0rem 0rem 20rem;
      align-items: start;
 }
@@ -67,21 +64,6 @@
 .project-text a {
      color: var(--text-link);
      text-decoration: underline;
-}
-
-.project-one {
-    grid-column: 1 / 2;
-    grid-row: 2 / 5;
-}
-
-.project-two {
-    grid-column: 2 / 3;
-    grid-row: 2 / 5;
-}
-
-.project-three{
-    grid-column: 3 / 4;
-    grid-row: 2 / 5;
 }
 
 .project-image {
