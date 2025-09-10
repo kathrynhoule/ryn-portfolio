@@ -1,31 +1,31 @@
 @import './styles/vars.css';
 
 .app-container {
-  display: flex;
+     display: flex;
 }
 
 .navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: var(--navbar-width);
-  display: flex;
-  flex-direction: column;
-  padding: 1rem;
-  background-color: none;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: var(--navbar-width);
+     display: flex;
+     flex-direction: column;
+     padding: 1rem;
+     background-color: none;
 }
 
 .navbar a {
-  color: var(--text-accent);
-  text-decoration: none;
-  margin-bottom: 1rem;
+     color: var(--text-accent);
+     text-decoration: none;
+     margin-bottom: 1rem;
 }
 
 .navbar a:hover {
-  color: var(--accent-hover);
+     color: var(--accent-hover);
 }
 
 .main-content {
-  margin-left: var(--navbar-width);
-  padding: 1rem;
+     margin-left: var(--navbar-width);
+     padding: 1rem;
 }
