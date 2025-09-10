@@ -1,9 +1,8 @@
 .site-footer {
      display: flex;
-     justify-content: center;
+     justify-content: right;
      padding: 1rem;
-     background-color: var(--bg-secondary);
-     border-top: 1px solid var(--bg-tertiary-shadow);
+     background-color: none;
 }
 
 .footer-link {
@@ -11,7 +10,7 @@
      align-items: center;
      gap: 0.5rem;
      text-decoration: none;
-     color: var(--text-primary);
+     color: var(--text-accent);
      font-family: var(--font-main);
      font-weight: 600;
      transition: transform 0.2s;
@@ -19,6 +18,7 @@
 
 .footer-link:hover {
      transform: translateY(-2px);
+     color: var(--accent-hover)
 }
 
 .footer-icon {
