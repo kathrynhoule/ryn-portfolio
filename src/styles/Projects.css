@@ -49,6 +49,11 @@
      height: 100%;
 }
 
+.project-text {
+     width: 100%;
+     text-align: left;
+}
+
 .project-text h3 {
      font-family: var(--font-title);
      font-size: 14px;
