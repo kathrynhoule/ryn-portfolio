@@ -20,7 +20,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="about-footer" style={{ gridColumn: '1 / 4', gridRow: '6 / 7' }}>
+            <div className="about-footer">
               <Footer />
             </div>
 
