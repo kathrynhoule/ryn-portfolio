@@ -9,8 +9,9 @@
           auto
           3rem;
      gap: 0.8rem;
-     padding: 8rem 0rem 0rem 20rem;
      align-items: start;
+
+     justify-content: center;
 }
 
 .intro-container {

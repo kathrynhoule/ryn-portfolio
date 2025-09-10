@@ -6,8 +6,9 @@
           256px
           3rem;
      gap: 2rem 0.8rem;
-     padding: 8rem 0rem 0rem 20rem;
      align-items: start;
+
+     justify-content: center;
 }
 
 .working-on-container {
