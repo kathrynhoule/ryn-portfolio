@@ -37,7 +37,7 @@
      margin: 0;
 }
 
-.home-link {
+.projects-link {
      display: flex;
      align-items: center;
      padding: 1rem;
@@ -51,37 +51,37 @@
      height: 100%;
 }
 
-.home-link h3 {
+.projects-link h3 {
      font-family: var(--font-title);
      font-size: 12px;
 }
 
-.home-link p {
+.projects-link p {
      font-family: var(--font-main);
      font-size: 12px;
      font-weight: 600;
 }
 
-.projects-link {
+.project-one-link {
+    grid-column: 1 / 2;
+    grid-row: 2 / 5;
+}
+
+.project-two-link {
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+}
+
+.project-three-link {
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
+    grid-row: 2 / 5;
 }
 
-.about-link {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-}
-
-.contact-link {
-    grid-column: 2 / 3;
-    grid-row: 4 / 5;
-}
-
-.home-link:hover {
+.projects-link:hover {
      transform: translateY(-4px);
 }
 
-.home-link img {
+.projects-link img {
      width: 50px;
      height: 50px;
 }

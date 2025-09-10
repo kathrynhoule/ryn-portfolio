@@ -13,7 +13,7 @@ const homeLinks = [
           alt: 'Projects',
           title: 'Projects',
           description: 'Check out my work and side projects',
-          className: 'projects-link',
+          className: 'work-link',
      },
      {
           to: '/contact',

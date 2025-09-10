@@ -9,28 +9,28 @@ const Projects = () => {
             <h1>Here's what I've been working on!</h1>
           </div>
 
-          <Link to='/about' className='home-link about-link'>
-            <img src='/assets/temp-projects-icon.png' alt='About' />
+          <Link to='/about' className='projects-link project-one-link'>
+            <img src='/assets/temp-projects-icon.png' alt='Project 1' />
             <div className='link-text'>
-              <h3>About Me</h3>
-              <p>Learn more about me</p>
+              <h3>Project 1</h3>
+              <p>Here's some stuff about this project</p>
             </div>
           </Link>
 
-          <Link to='/projects' className='home-link projects-link'>
-            <img src='/assets/temp-projects-icon.png' alt='Projects' />
+          <Link to='/projects' className='projects-link project-two-link'>
+            <img src='/assets/temp-projects-icon.png' alt='Project 2' />
             <div className='link-text'>
-              <h3>Projects</h3>
-              <p>Check out my work and side projects</p>
+              <h3>Project 2</h3>
+              <p>Here's some stuff about this project</p>
             </div>
           </Link>
 
-          <Link to='/contact' className='home-link contact-link'>
-              <img src='/assets/temp-projects-icon.png' alt='Contact' />
-            <div className='link-text'>
-              <h3>Contact</h3>
-              <p>Get in touch or see me elsewhere</p>
-            </div>
+          <Link to='/contact' className='projects-link project-three-link'>
+              <img src='/assets/temp-projects-icon.png' alt='Project 3' />
+              <div className='link-text'>
+                <h3>Project 3</h3>
+                <p>Here's some stuff about this project</p>
+              </div>
           </Link>
         </div>
   )
