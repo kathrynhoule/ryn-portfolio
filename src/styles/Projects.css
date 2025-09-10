@@ -1,4 +1,4 @@
-.home-container {
+.projects-container {
      display: grid;
      grid-template-columns: repeat(3, minmax(128px, 192px));
      grid-template-rows:
@@ -12,7 +12,7 @@
      align-items: start;
 }
 
-.welcome-container {
+.working-on-container {
      grid-column: 1 / 4;
      display: flex;
      justify-content: center;
@@ -25,13 +25,13 @@
      letter-spacing: 0.2em;
 }
 
-.welcome-container h1 {
+.working-on-container h1 {
      font-size: 1rem;
      line-height: 1.2;
      margin: 0;
 }
 
-.welcome-container p {
+.working-on-container p {
      font-size: 0.8rem;
      line-height: 1.2;
      margin: 0;

@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 const Projects = () => {
   return (
-        <div className='home-container'>
-          <div className='welcome-container'>
-            <h1>Welcome to my portfolio!</h1>
+        <div className='projects-container'>
+          <div className='working-on-container'>
+            <h1>Here's what I've been working on!</h1>
           </div>
 
           <Link to='/about' className='home-link about-link'>
