@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Contact.css';
 import ContactCard from '../components/ContactCard'
 import contactCards from '../data/contactCards'
+import Footer from '../components/Footer';
 
 const Contact = () => {
   return (
@@ -18,6 +19,10 @@ const Contact = () => {
             {contactCards.map((link, index) => (
               <ContactCard key={index} {...link} />
             ))}
+          </div>
+
+          <div className="contact-footer">
+            <Footer />
           </div>
         </div>
   )
