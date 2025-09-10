@@ -9,10 +9,6 @@ const Projects = () => {
             <h1>Welcome to my portfolio!</h1>
           </div>
 
-          <div className='avatar-container'>
-            <img src='/assets/temp-avatar.png' alt='Avatar' />
-          </div>
-
           <Link to='/about' className='home-link about-link'>
             <img src='/assets/temp-projects-icon.png' alt='About' />
             <div className='link-text'>
