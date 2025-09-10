@@ -1,18 +1,15 @@
-.about-container {
+.contact-container {
      display: grid;
      grid-template-columns: repeat(3, minmax(128px, 192px));
      grid-template-rows:
           3rem
-          minmax(128px, auto)
-          1rem
-          minmax(128px, auto)
-          auto;
+          repeat(4, 150px);
      gap: 0.8rem;
      padding: 8rem 0rem 0rem 20rem;
      align-items: start;
 }
 
-.intro-container {
+.find-me-container {
      grid-column: 1 / 4;
      display: flex;
      justify-content: center;
@@ -25,19 +22,19 @@
      letter-spacing: 0.2em;
 }
 
-.intro-container h1 {
+.find-me-container h1 {
      font-size: 1rem;
      line-height: 1.2;
      margin: 0;
 }
 
-.intro-container p {
+.find-me-container p {
      font-size: 0.8rem;
      line-height: 1.2;
      margin: 0;
 }
 
-.about-avatar-container {
+.contact-avatar-container {
      grid-column: 1 / 2;
      grid-row: 2 / 5;
      display: flex;
@@ -51,38 +48,50 @@
      height: 100%; 
 }
 
-.about-avatar-container img {
+.contact-avatar-container img {
      width: 128px;
      height: 192px;
      object-fit: cover;
 }
 
-.about-block {
-     grid-column: 2 / 4;
-     grid-row: 2 / 5; 
+.contact-cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0.8rem;
+    grid-column: 2 / 3;
+    grid-row: 2 / 5;
+}
+
+.contact-card {
      display: flex;
      align-items: center;
      padding: 1rem;
      border-radius: 8px;
      text-decoration: none;
-     background-color: var(--bg-secondary);
+     background-color: var(--bg-tertiary);
      color: var(--text-primary);
      box-shadow: 0px 6px var(--bg-tertiary-shadow);
+     transition: transform 0.2s;
      align-self: stretch;
-     height: 100%;
 }
 
-.about-me {
-     width: 100%;
-}
-
-.about-me h3 {
+.contact-card h3 {
      font-family: var(--font-title);
      font-size: 12px;
 }
 
-.about-me p {
+.contact-card p {
      font-family: var(--font-main);
      font-size: 12px;
      font-weight: 600;
+}
+
+.contact-card:hover {
+     transform: translateY(-4px);
+}
+
+.contact-card img {
+     width: 50px;
+     height: 50px;
 }

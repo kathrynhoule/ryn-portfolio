@@ -8,7 +8,7 @@ const About = () => {
                       <h1>Hi, I'm Ryn!</h1>
                     </div>
           
-                    <div className='avatar-container'>
+                    <div className='about-avatar-container'>
                       <img src='/assets/temp-avatar-about.png' alt='Avatar About' />
                     </div>
           
