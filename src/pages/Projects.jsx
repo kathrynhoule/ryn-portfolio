@@ -9,29 +9,50 @@ const Projects = () => {
             <h1>Here's what I've been working on!</h1>
           </div>
 
-          <Link to='/about' className='projects-link project-one-link'>
-            <img src='/assets/temp-projects-icon.png' alt='Project 1' />
-            <div className='link-text'>
+        <div className="project-card project-one">
+            <img src="/assets/temp-project.png" alt="Project 1" className="project-image" />
+            <div className="project-text">
               <h3>Project 1</h3>
-              <p>Here's some stuff about this project</p>
+              <p>
+                Here's some stuff about this project.  
+                Check it out on{' '}
+                <a href="https://github.com/myusername/project1" target="_blank" rel="noopener noreferrer">
+                  GitHub
+                </a>
+                .
+              </p>
             </div>
-          </Link>
+          </div>
 
-          <Link to='/projects' className='projects-link project-two-link'>
-            <img src='/assets/temp-projects-icon.png' alt='Project 2' />
-            <div className='link-text'>
+          <div className="project-card project-two">
+            <img src="/assets/temp-project.png" alt="Project 2" className="project-image" />
+            <div className="project-text">
               <h3>Project 2</h3>
-              <p>Here's some stuff about this project</p>
+              <p>
+                Here's some stuff about this project.  
+                Check it out on{' '}
+                <a href="https://github.com/myusername/project2" target="_blank" rel="noopener noreferrer">
+                  here
+                </a>
+                .
+              </p>
             </div>
-          </Link>
+          </div>
 
-          <Link to='/contact' className='projects-link project-three-link'>
-              <img src='/assets/temp-projects-icon.png' alt='Project 3' />
-              <div className='link-text'>
-                <h3>Project 3</h3>
-                <p>Here's some stuff about this project</p>
-              </div>
-          </Link>
+          <div className="project-card project-three">
+            <img src="/assets/temp-project.png" alt="Project 3" className="project-image" />
+            <div className="project-text">
+              <h3>Project 3</h3>
+              <p>
+                Here's some stuff about this project.  
+                Check it out on{' '}
+                <a href="https://github.com/myusername/project3" target="_blank" rel="noopener noreferrer">
+                  the website
+                </a>
+                .
+              </p>
+            </div>
+          </div>
         </div>
   )
 }
