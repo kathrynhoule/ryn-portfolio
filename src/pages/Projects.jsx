@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/Projects.css';
 import { Link } from 'react-router-dom';
+import ProjectCard from '../components/ProjectCard';
+import projectCards from '../data/projectCards';
 
 const Projects = () => {
   return (
