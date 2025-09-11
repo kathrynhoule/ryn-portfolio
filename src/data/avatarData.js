@@ -7,9 +7,9 @@ const avatarData = {
           'Based in Canada',
      ],
      icons: [
-          { src: '/assets/temp-projects-ion.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-ion.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-ion.png', alt: 'GitHub'},
+          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
+          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
+          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
      ],
      },
 
@@ -21,9 +21,9 @@ const avatarData = {
           'Coffee enthusiast',
      ],
      icons: [
-          { src: '/assets/temp-projects-ion.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-ion.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-ion.png', alt: 'GitHub'},
+          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
+          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
+          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
      ],
      },
 
@@ -35,9 +35,9 @@ const avatarData = {
           'Let’s build something great',
      ],
      icons: [
-          { src: '/assets/temp-projects-ion.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-ion.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-ion.png', alt: 'GitHub'},
+          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
+          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
+          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
      ],
      },
 };

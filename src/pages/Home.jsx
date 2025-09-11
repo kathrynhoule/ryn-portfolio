@@ -1,6 +1,5 @@
 import React from 'react'
 import '../styles/Home.css';
-import { Link } from 'react-router-dom';
 import HomeLink from '../components/HomeLink';
 import homeLinks from '../data/homeLinks';
 import avatarData from '../data/avatarData';
