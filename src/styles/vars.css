@@ -1,23 +1,22 @@
-/* colour palette from https://lospec.com/palette-list/pokemon-puzzle-challenge */
-/* perhaps just a temporary palette until i finalize */
-
 :root {
   --font-main: 'IBM Plex Mono', monospace;
   --font-title: 'Press Start 2P', cursive;
 
-  --bg-primary: #181840;
-  --bg-secondary: #8878d0;
-  --bg-tertiary: #4868e8;
-  --bg-tertiary-shadow: #6431da;
+  --bg-primary: #F87858;
 
-  --text-primary: rgb(217, 225, 233);
-  --text-heading: #ffffff;
-  --text-accent: #8878d0;
+  --box-primary: #9878F8;
+  --box-secondary: #E40058;
+  --box-tertiary: #D8F878;
+
+  --text-primary: #FCFCFC;
+  --text-secondary: #000E93;
+  --text-accent: #BCBCBC;
+
+  --border-primary: #000E93;
+  --border-accent: #58F898;
 
   --accent-primary: #98a8f8;
-  --accent-secondary: #3ca5cc;
-  --accent-hover: #f868c8;
-
-  --accent-pop: #10ffff;
-  --accent-vibrant: #3928ff;
+  --accent-secondary: #F87858;
+  --accent-hover: #D800CC;
+  --accent-vibrant: #D8F878;
 }
