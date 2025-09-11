@@ -1,6 +1,6 @@
 .home-container {
      display: grid;
-     grid-template-columns: minmax(128px, 192px) 1fr;
+     grid-template-columns: minmax(128px, 192px) auto;
      grid-template-rows: 3rem auto;
      gap: 0.8rem;
      justify-content: center;
