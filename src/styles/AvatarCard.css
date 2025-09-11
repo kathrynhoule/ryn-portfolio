@@ -9,8 +9,8 @@
      border-right: 4px solid var(--border-primary);
 
      box-shadow: 
-          inset 4px 0 0 0 var(--accent-vibrant),
-          inset 0 4px 0 0 var(--accent-vibrant);
+          inset 4px 0 0 0 var(--border-accent),
+          inset 0 4px 0 0 var(--border-accent);
 
      background-color: var(--box-secondary);
      align-self: stretch;
