@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import '../styles/Home.css';
-import HomeLink from '../components/HomeLink';
-import homeLinks from '../data/homeLinks';
-import avatarData from '../data/avatarData';
-import AvatarCard from '../components/AvatarCard';
+import '../styles/Home.css'
+import HomeLink from '../components/HomeLink'
+import homeLinks from '../data/homeLinks'
+import avatarData from '../data/avatarData'
+import AvatarCard from '../components/AvatarCard'
 
 const Home = () => {
   const fullText = "Welcome to my portfolio!";
