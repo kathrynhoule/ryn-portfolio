@@ -8,15 +8,20 @@ import AvatarCard from '../components/AvatarCard';
 const Home = () => {
   const fullText = "Welcome to my portfolio!";
   const [displayedText, setDisplayedText] = useState("");
+  const [typingDone, setTypingDone] = useState(false);
 
   useEffect(() => {
     const typingDelay = 1000;
-    const charDelay = 100;
 
     const typeCharacter = (index) => {
       if (index < fullText.length) {
         setDisplayedText((prev) => prev + fullText[index]);
-        setTimeout(() => typeCharacter(index + 1), charDelay);
+        const randomDelay = 80 + Math.random() * 60;
+        setTimeout(() => typeCharacter(index + 1), randomDelay);
+      }
+
+      else {
+        setTypingDone(true);
       }
     };
 
@@ -30,7 +35,10 @@ const Home = () => {
   return (
         <div className='home-container'>
           <div className='welcome-container'>
-            <h1>{displayedText}</h1>
+            <h1>
+              {displayedText}
+              {!typingDone && <span className="cursor">|</span>}
+            </h1>
           </div>
 
           <AvatarCard
