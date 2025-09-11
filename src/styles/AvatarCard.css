@@ -4,8 +4,9 @@
      align-items: flex-start;
      padding: 1em;
      border-radius: 8px;
-     background-color: var(--bg-secondary);
-     box-shadow: 0px 6px var(--bg-tertiary-shadow);
+     background-color: var(--box-secondary);
+     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+     border: 2px solid var(--border-primary);
      align-self: stretch;
 }
 
@@ -21,6 +22,7 @@
      height: 192px;
      object-fit: cover;
      border-radius: 8px;
+     border: 2px solid var(--accent-primary);
 }
 
 .quick-facts {
@@ -45,5 +47,7 @@
 .avatar-icons img {
      width: 32px;
      height: 32px;
-     transition: transform 0.2s, filter 0.2s;
+     border: 1px solid var(--accent-secondary);
+     border-radius: 6px;
+     padding: 2px;
 }
