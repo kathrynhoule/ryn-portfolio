@@ -1,0 +1,28 @@
+import React from 'react'
+import '../styles/AvatarCard.css';
+
+const AvatarCard = ({ avatar, facts, icons }) => {
+     return (
+          <div className='avatar-container'>
+               <div className='avatar-content'>
+               <img src={avatar} alt='Avatar' className='avatar-img' />
+
+               <ul className='quick-facts'>
+                    {facts.map((fact, index) => (
+                         <li key={index}>{fact}</li>
+                    ))}
+               </ul>
+
+                    <div className='avatar-icons'>
+                    {icons.map((icon, index) => (
+                         <a key={index} href={icon.link} target='_blank' rel='noopener noreferrer'>
+                         <img src={icon.src} alt={icon.alt} />
+                         </a>
+                    ))}
+                    </div>
+               </div>
+          </div>
+     )
+}
+
+export default AvatarCard
