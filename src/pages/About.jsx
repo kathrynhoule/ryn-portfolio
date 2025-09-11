@@ -12,9 +12,9 @@ const About = () => {
             </div>
   
             <AvatarCard
-              avatar={avatarData.contact.avatar} 
-              facts={avatarData.contact.facts} 
-              icons={avatarData.contact.icons}
+              avatar={avatarData.about.avatar} 
+              facts={avatarData.about.facts} 
+              icons={avatarData.about.icons}
               className='about-avatar'
             />
   

@@ -2,8 +2,8 @@ const avatarData = {
      home: {
      avatar: '/assets/temp-avatar.png',
      facts: [
-          'React Dev',
           'Creative Coder & Designer',
+          'React & Python',
           'Based in Canada',
      ],
      icons: [
