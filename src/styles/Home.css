@@ -18,8 +18,13 @@
      color: var(--text-primary);
      font-family: var(--font-title);
      letter-spacing: 0.2em;
-     box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-     border: 2px solid var(--border-primary);
+
+     border-bottom: 4px solid var(--border-primary);
+     border-right: 4px solid var(--border-primary);
+
+     box-shadow: 
+          inset 4px 0 0 0 var(--border-accent),
+          inset 0 4px 0 0 var(--border-accent);
 }
 
 .welcome-container h1 {

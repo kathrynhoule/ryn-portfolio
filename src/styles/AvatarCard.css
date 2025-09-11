@@ -4,9 +4,15 @@
      align-items: flex-start;
      padding: 1em;
      border-radius: 8px;
+
+     border-bottom: 4px solid var(--border-primary);
+     border-right: 4px solid var(--border-primary);
+
+     box-shadow: 
+          inset 4px 0 0 0 var(--accent-vibrant),
+          inset 0 4px 0 0 var(--accent-vibrant);
+
      background-color: var(--box-secondary);
-     box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-     border: 2px solid var(--border-primary);
      align-self: stretch;
 }
 
