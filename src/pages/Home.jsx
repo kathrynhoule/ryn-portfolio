@@ -3,6 +3,8 @@ import '../styles/Home.css';
 import { Link } from 'react-router-dom';
 import HomeLink from '../components/HomeLink';
 import homeLinks from '../data/homeLinks';
+import avatarData from '../data/avatarData';
+import AvatarCard from '../components/AvatarCard';
 
 const Home = () => {
   return (
@@ -11,23 +13,12 @@ const Home = () => {
             <h1>Welcome to my portfolio!</h1>
           </div>
 
-          <div className='avatar-container'>
-            <div className='avatar-content'>
-              <img src='/assets/temp-avatar.png' alt='Avatar' />
-
-              <ul className='quick-facts'>
-                <li>React Dev</li>
-                <li>Creative Coder & Designer</li>
-                <li>Based in Canada</li>
-              </ul>
-
-              <div className='avatar-icons'>
-                <img src='/assets/temp-projects-icon.png' alt='Paintbrush' />
-                <img src='/assets/temp-projects-icon.png' alt='Pigeon' />
-                <img src='/assets/temp-projects-icon.png' alt='Coffee' />
-              </div>
-            </div>
-          </div>
+          <AvatarCard
+            avatar={avatarData.home.avatar} 
+            facts={avatarData.home.facts} 
+            icons={avatarData.home.icons}
+            className='home-avatar'
+          />
 
           {homeLinks.map((link, index) => (
             <HomeLink key={index} {...link} />

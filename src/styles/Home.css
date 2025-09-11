@@ -39,57 +39,9 @@
      margin: 0;
 }
 
-.avatar-container {
+.home-avatar {
      grid-column: 1 / 2;
      grid-row: 2 / 5;
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     padding: 1em;
-     border-radius: 8px;
-     background-color: var(--bg-secondary);
-     box-shadow: 0px 6px var(--bg-tertiary-shadow);
-     align-self: stretch;
-}
-
-.avatar-content {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     gap: 1rem;
-}
-
-.avatar-content img {
-     width: 128px;
-     height: 192px;
-     object-fit: cover;
-     border-radius: 8px;
-}
-
-.quick-facts {
-     list-style: none;
-     padding: 0;
-     margin: 0;
-     text-align: center;
-     font-size: 0.8rem;
-     color: var(--text-primary);
-     font-family: var(--font-title);
-     font-size: 10px;
-}
-
-.quick-facts li {
-     margin-bottom: 0.4rem;
-}
-
-.avatar-icons {
-     display: flex;
-     gap: 1rem;
-}
-
-.avatar-icons img {
-     width: 32px;
-     height: 32px;
-     transition: transform 0.2s, filter 0.2s;
 }
 
 .home-link {
