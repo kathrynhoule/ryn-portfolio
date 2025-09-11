@@ -28,7 +28,7 @@ const avatarData = {
      },
 
      contact: {
-     avatar: '/assets/temp-avatar.png',
+     avatar: '/assets/temp-avatar-about.png',
      facts: [
           'Always happy to connect',
           'Open to collaborations',
