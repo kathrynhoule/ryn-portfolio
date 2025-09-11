@@ -41,22 +41,18 @@ const Home = () => {
             </h1>
           </div>
 
-  {typingDone && (
-    <>
           <AvatarCard
             avatar={avatarData.home.avatar} 
             facts={avatarData.home.facts} 
             icons={avatarData.home.icons}
-            className='home-avatar'
+            className={`home-avatar ${typingDone ? 'fade-in' : 'hidden'}`}
           />
 
-          <div className='home-links-grid fade-in'>
+          <div className={`home-links-grid ${typingDone ? 'fade-in' : 'hidden'}`}>
             {homeLinks.map((link, index) => (
               <HomeLink key={index} {...link} />
             ))}
           </div>
-          </>
-            )}
         </div>
   )
 }

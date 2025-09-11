@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles/AvatarCard.css';
 
-const AvatarCard = ({ avatar, facts, icons }) => {
+const AvatarCard = ({ avatar, facts, icons, className, style }) => {
      return (
-          <div className='avatar-container'>
+          <div className={`avatar-container ${className}`} style={style}>
                <div className='avatar-content'>
                <img src={avatar} alt='Avatar' className='avatar-img' />
 
