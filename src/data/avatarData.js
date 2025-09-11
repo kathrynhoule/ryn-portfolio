@@ -3,16 +3,16 @@ const avatarData = {
      avatar: '/assets/temp-avatar.png',
      facts: [
           'React Dev',
-          'Creative coder & designer',
+          'Creative Coder & Designer',
           'Based in Canada',
      ],
      icons: [
-          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
+          { src: '/assets/temp-projects-icon.png', alt: 'React'},
+          { src: '/assets/temp-projects-icon.png', alt: 'Python'},
+          { src: '/assets/temp-projects-icon.png', alt: 'Aseprite'},
      ],
      },
-
+     
      about: {
      avatar: '/assets/temp-avatar-about.png',
      facts: [
@@ -21,9 +21,9 @@ const avatarData = {
           'Coffee enthusiast',
      ],
      icons: [
-          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
+          { src: '/assets/about-icon-coffee.png', alt: 'Coffee'},
+          { src: '/assets/about-icon-tamagotchi.png', alt: 'Tamagotchi'},
+          { src: '/assets/about-icon-bird.png', alt: 'Bird'},
      ],
      },
 
