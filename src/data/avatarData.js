@@ -7,9 +7,9 @@ const avatarData = {
           'Based in Canada',
      ],
      icons: [
-          { src: '/assets/temp-projects-icon.png', alt: 'React'},
-          { src: '/assets/temp-projects-icon.png', alt: 'Python'},
-          { src: '/assets/temp-projects-icon.png', alt: 'Aseprite'},
+          { src: '/assets/home-icon-react.png', alt: 'React'},
+          { src: '/assets/home-icon-python.png', alt: 'Python'},
+          { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite'},
      ],
      },
      
