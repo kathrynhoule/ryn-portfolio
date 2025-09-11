@@ -19,9 +19,11 @@ const Home = () => {
             className='home-avatar'
           />
 
-          {homeLinks.map((link, index) => (
-            <HomeLink key={index} {...link} />
-          ))}
+          <div className='home-links-grid'>
+            {homeLinks.map((link, index) => (
+              <HomeLink key={index} {...link} />
+            ))}
+          </div>
         </div>
   )
 }
