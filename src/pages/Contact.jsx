@@ -3,6 +3,8 @@ import '../styles/Contact.css';
 import ContactCard from '../components/ContactCard'
 import contactCards from '../data/contactCards'
 import Footer from '../components/Footer';
+import avatarData from '../data/avatarData';
+import AvatarCard from '../components/AvatarCard';
 
 const Contact = () => {
   return (
@@ -11,9 +13,12 @@ const Contact = () => {
             <h1>Welcome to my portfolio!</h1>
           </div>
 
-          <div className='contact-avatar-container'>
-            <img src='/assets/temp-avatar.png' alt='Avatar' />
-          </div>
+          <AvatarCard
+            avatar={avatarData.contact.avatar} 
+            facts={avatarData.contact.facts} 
+            icons={avatarData.contact.icons}
+            className='contact-avatar'
+          />
 
           <div className='contact-cards-container'>
             {contactCards.map((link, index) => (
