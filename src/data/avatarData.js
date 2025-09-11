@@ -16,9 +16,9 @@ const avatarData = {
      about: {
      avatar: '/assets/temp-avatar-about.png',
      facts: [
-          'Lifelong learner',
-          'Love to travel',
-          'Coffee enthusiast',
+          'Coffee Lover',
+          'Pet Game Enthusiast',
+          'Birds Birds Birds',
      ],
      icons: [
           { src: '/assets/about-icon-coffee.png', alt: 'Coffee'},
@@ -30,9 +30,8 @@ const avatarData = {
      contact: {
      avatar: '/assets/temp-avatar-about.png',
      facts: [
-          'Always happy to connect',
-          'Open to collaborations',
-          'Let’s build something great',
+          'Reach out to me!',
+          'Let’s make something cool',
      ],
      icons: [
           { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
