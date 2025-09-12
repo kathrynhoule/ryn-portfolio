@@ -1,11 +1,10 @@
 import React from 'react'
 import '../styles/Projects.css';
-import { Link } from 'react-router-dom';
 import ProjectCard from '../components/ProjectCard';
 import projectCards from '../data/projectCards';
 import Footer from '../components/Footer';
 
-const Projects = () => {
+const MainProjects = () => {
   return (
         <div className='projects-container'>
           <div className='working-on-container'>
@@ -23,4 +22,4 @@ const Projects = () => {
   )
 }
 
-export default Projects
+export default MainProjects
