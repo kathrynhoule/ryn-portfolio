@@ -4,7 +4,7 @@ const homeLinks = [
           icon: '/assets/temp-projects-icon.png',
           alt: 'About',
           title: 'About Me',
-          description: 'Learn more about me',
+          description: 'Learn more about me and my story',
           className: 'about-link',
      },
      {
@@ -12,7 +12,7 @@ const homeLinks = [
           icon: '/assets/temp-projects-icon.png',
           alt: 'Projects',
           title: 'Projects',
-          description: 'Check out my work and side projects',
+          description: 'Check out my work and main projects',
           className: 'work-link',
      },
      {
@@ -20,7 +20,7 @@ const homeLinks = [
           icon: '/assets/temp-projects-icon.png',
           alt: 'Contact',
           title: 'Contact',
-          description: 'Get in touch or see me elsewhere',
+          description: 'Get in touch or find me elsewhere',
           className: 'contact-link',
      },
 ];
