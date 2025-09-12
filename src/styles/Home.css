@@ -123,3 +123,16 @@
      line-height: 1.4;
      color: var(--text-secondary);
 }
+
+.home-link-description {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 4px;
+}
+
+.home-link-icon-wrapper svg {
+     width: 16px;
+     height: 16px;
+     color: var(--text-secondary);
+}

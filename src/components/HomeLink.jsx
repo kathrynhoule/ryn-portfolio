@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HiChevronRight } from 'react-icons/hi'
 
 const HomeLink = ({ to, icon, alt, title, description, className }) => {
   return (
@@ -8,7 +9,12 @@ const HomeLink = ({ to, icon, alt, title, description, className }) => {
                <img src={icon} alt={alt} />
                <h3>{title}</h3>
           </div>
-          <p>{description}</p>
+          <div className="home-link-description">
+               <span className="home-link-icon-wrapper">
+                    <HiChevronRight />
+               </span>
+               <p>{description}</p>
+          </div>
      </Link>
   )
 }
