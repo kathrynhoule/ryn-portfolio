@@ -21,7 +21,7 @@ const About = () => {
             <div className='about-block'>
               <div className='about-me'>
                 <h3>About Me</h3>
-                <p>Placeholder text</p>
+                <p>I’m a creative coder who enjoys building fun, interactive projects with React and Python. I thrive on mixing design and development to bring ideas to life. When I’m not coding, I’m probably sipping coffee, geeking out over pet games, or spotting birds.</p>
               </div>
             </div>
 
