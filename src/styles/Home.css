@@ -81,9 +81,10 @@
      border-radius: 8px;
      text-decoration: none;
      background-color: var(--box-tertiary);
-     color: var(--text-primary);
-     box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-     border: 2px solid var(--border-accent);
+     color: var(--text-secondary);
+     border-bottom: 3px solid var(--accent-tertiary);
+     border-right: 3px solid var(--accent-tertiary);
+     box-shadow: inset 3px 0 0 var(--accent-primary), inset 0 3px 0 var(--accent-primary);
      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
 }
 
