@@ -76,12 +76,13 @@
 
 .home-link {
      display: flex;
-     align-items: center;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
      padding: 1rem;
      border-radius: 8px;
      text-decoration: none;
      background-color: var(--box-tertiary);
-     color: var(--text-secondary);
      border-bottom: 3px solid var(--accent-tertiary);
      border-right: 3px solid var(--accent-tertiary);
      box-shadow: inset 3px 0 0 var(--accent-primary), inset 0 3px 0 var(--accent-primary);
@@ -91,24 +92,34 @@
 .home-link:hover {
      transform: translateY(-4px);
      box-shadow: 0 6px 14px rgba(0,0,0,0.25);
-     border-color: var(--accent-hover);
+     border-color: var(--border-accent);
+     background-color: var(--accent-secondary);
 }
 
-.home-link h3 {
+.home-link-header {
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+     margin: 4px 0px;
+}
+
+.home-link-header img {
+     width: 32px;
+     height: 32px;
+}
+
+.home-link-header h3 {
      font-family: var(--font-title);
      font-size: 12px;
      margin: 0;
+     color: var(--text-secondary);
 }
 
 .home-link p {
      font-family: var(--font-main);
      font-size: 12px;
      font-weight: 600;
-     margin: 0;
-}
-
-.home-link img {
-     width: 50px;
-     height: 50px;
-     margin-right: 0.6rem;
+     margin: 4px 0px;
+     line-height: 1.4;
+     color: var(--text-secondary);
 }
