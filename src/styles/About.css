@@ -1,7 +1,7 @@
 .about-container {
      display: grid;
      grid-template-columns: minmax(128px, 192px) auto;
-     grid-template-rows: auto 1fr auto;
+     grid-template-rows: auto auto auto;
      gap: 0.8rem;
      align-items: start;
 
@@ -16,10 +16,17 @@
      align-items: center;
      padding: 0.8rem;
      border-radius: 8px;
-     background-color: var(--bg-secondary);
-     color: var(--text-heading);
+     background-color: var(--box-primary);
+     color: var(--text-primary);
      font-family: var(--font-title);
      letter-spacing: 0.2em;
+
+     border-bottom: 4px solid var(--border-primary);
+     border-right: 4px solid var(--border-primary);
+
+     box-shadow: 
+          inset 4px 0 0 0 var(--border-accent),
+          inset 0 4px 0 0 var(--border-accent);
 }
 
 .intro-container h1 {
@@ -50,9 +57,10 @@
      padding: 1rem;
      border-radius: 8px;
      text-decoration: none;
-     background-color: var(--bg-secondary);
-     color: var(--text-primary);
-     box-shadow: 0px 6px var(--bg-tertiary-shadow);
+     background-color: var(--box-tertiary);
+     color: var(--text-secondary);
+     border-bottom: 4px solid var(--border-primary);
+     border-right: 4px solid var(--border-primary);
 }
 
 .about-me {
