@@ -8,11 +8,19 @@ const homeLinks = [
           className: 'about-link',
      },
      {
-          to: '/projects',
+          to: '/main-projects',
           icon: '/assets/temp-projects-icon.png',
           alt: 'Projects',
-          title: 'Projects',
+          title: 'Main Projects',
           description: 'Check out my work and main projects',
+          className: 'work-link',
+     },
+     {
+          to: '/side-projects',
+          icon: '/assets/temp-projects-icon.png',
+          alt: 'Projects',
+          title: 'Side Projects',
+          description: 'Check out my side projects',
           className: 'work-link',
      },
      {
