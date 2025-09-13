@@ -10,7 +10,7 @@ const Contact = () => {
   return (
         <div className='contact-container'>
           <div className='find-me-container'>
-            <h1>Welcome to my portfolio!</h1>
+            <h1>Get in touch with me here:</h1>
           </div>
 
           <AvatarCard

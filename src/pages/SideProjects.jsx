@@ -8,7 +8,7 @@ const SideProjects = () => {
   return (
      <div className='projects-container'>
           <div className='working-on-container'>
-               <h1>Here's what I've been working on!</h1>
+               <h1>These are my smaller projects.</h1>
           </div>
 
           {sideProjectCards.map((link, index) => (
