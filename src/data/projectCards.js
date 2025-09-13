@@ -6,6 +6,11 @@ const projectCards = [
           description: 'Here\'s some stuff about this project. Check it out on ',
           link: 'https://github.com/myusername/project1',
           linkText: 'GitHub',
+          icons: [
+               { src: '/assets/home-icon-react.png', alt: 'React'},
+               { src: '/assets/home-icon-python.png', alt: 'Python'},
+               { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite'},
+          ],
      },
      {
           image: '/assets/temp-project.png',
@@ -14,6 +19,11 @@ const projectCards = [
           description: 'Here\'s some stuff about this project. Check it out on ',
           link: 'https://github.com/myusername/project2',
           linkText: 'GitHub',
+          icons: [
+               { src: '/assets/home-icon-react.png', alt: 'React'},
+               { src: '/assets/home-icon-python.png', alt: 'Python'},
+               { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite'},
+          ],
      },
      {
           image: '/assets/temp-project.png',
@@ -22,6 +32,11 @@ const projectCards = [
           description: 'Here\'s some stuff about this project. Check it out on ',
           link: 'https://github.com/myusername/project3',
           linkText: 'GitHub',
+          icons: [
+               { src: '/assets/home-icon-react.png', alt: 'React'},
+               { src: '/assets/home-icon-python.png', alt: 'Python'},
+               { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite'},
+          ],
      },
 ];
 
