@@ -2,9 +2,9 @@
      display: grid;
      grid-template-columns: repeat(3, minmax(128px, 192px));
      grid-template-rows:
-          3rem
           auto
-          3rem;
+          auto
+          auto;
      gap: 2rem 0.8rem;
      align-items: start;
 
