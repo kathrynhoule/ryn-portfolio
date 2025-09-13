@@ -26,7 +26,7 @@ const About = () => {
             </div>
 
             <div className="about-footer">
-              <Footer />
+              <Footer nextLink="/main-projects" nextText="Go to Main Projects" />
             </div>
 
           </div>

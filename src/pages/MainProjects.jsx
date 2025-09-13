@@ -16,7 +16,7 @@ const MainProjects = () => {
           ))}
 
           <div className="projects-footer">
-            <Footer />
+            <Footer nextLink="/side-projects" nextText="Go to Side Projects" />
           </div>
         </div>
   )

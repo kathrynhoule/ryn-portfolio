@@ -16,7 +16,7 @@ const SideProjects = () => {
           ))}
 
           <div className="projects-footer">
-               <Footer />
+               <Footer nextLink="/contact" nextText="Go to Contact" />
           </div>
      </div>
   )

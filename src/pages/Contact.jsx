@@ -27,7 +27,7 @@ const Contact = () => {
           </div>
 
           <div className="contact-footer">
-            <Footer />
+            <Footer nextLink="/about" nextText="Go to About" />
           </div>
         </div>
   )
