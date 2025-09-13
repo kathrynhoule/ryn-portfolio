@@ -96,17 +96,22 @@
      font-family: var(--font-main);
      font-size: 12px;
      font-weight: 600;
-     margin: 0.2rem 0 0;
+     margin-top: 0.4rem;
 }
 
 .contact-card a {
+     color: var(--box-primary);
      text-decoration: underline;
+}
+
+.contact-card a:hover {
+     color: var(--accent-hover);
 }
 
 .contact-card-header {
      display: flex;
      align-items: center;
-     gap: 0.4rem;
+     gap: 0.5rem;
 }
 
 .contact-footer {

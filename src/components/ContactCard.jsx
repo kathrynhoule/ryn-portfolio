@@ -3,9 +3,9 @@ import React from 'react'
 const ContactCard = ({ title, description, icon, alt, link, linkText }) => {
   return (
      <div className='contact-card'>
-          <img src={icon} alt={alt} />
           <div className="contact-card-text">
                <div className="contact-card-header">
+                    <img src={icon} alt={alt} />
                     <h3>{title}</h3>
                </div>
                <p>
