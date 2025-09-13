@@ -13,16 +13,22 @@
 }
 
 .find-me-container {
-     grid-column: 1 / 4;
+     grid-column: 1 / -1;
      display: flex;
      justify-content: center;
      align-items: center;
      padding: 0.8rem;
      border-radius: 8px;
-     background-color: var(--bg-secondary);
-     color: var(--text-heading);
+     background-color: var(--box-primary);
      font-family: var(--font-title);
+     color: var(--text-primary);
      letter-spacing: 0.2em;
+     border-bottom: 4px solid var(--border-primary);
+     border-right: 4px solid var(--border-primary);
+
+     box-shadow: 
+          inset 4px 0 0 0 var(--border-accent),
+          inset 0 4px 0 0 var(--border-accent);
 }
 
 .find-me-container h1 {
@@ -45,7 +51,7 @@
 .contact-cards-container {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: stretch;
     gap: 0.8rem;
     grid-column: 2 / 4;
     grid-row: 2;
@@ -53,16 +59,17 @@
 
 .contact-card {
      display: flex;
+     flex: 1;
      align-items: center;
      padding: 1rem;
      border-radius: 8px;
      text-decoration: none;
-     background-color: var(--bg-tertiary);
-     color: var(--text-primary);
+     background-color: var(--box-tertiary);
+     color: var(--text-secondary);
+     border-bottom: 4px solid var(--border-primary);
+     border-right: 4px solid var(--border-primary);
      box-shadow: 0px 6px var(--bg-tertiary-shadow);
-     transition: transform 0.2s;
-     align-self: stretch;
-}
+     transition: transform 0.2s;}
 
 .contact-card h3 {
      font-family: var(--font-title);
