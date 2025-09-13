@@ -8,7 +8,7 @@ const MainProjects = () => {
   return (
         <div className='projects-container'>
           <div className='working-on-container'>
-            <h1>Here's what I've been working on!</h1>
+            <h1>Here are the main things I've been working on:</h1>
           </div>
 
           {projectCards.map((link, index) => (

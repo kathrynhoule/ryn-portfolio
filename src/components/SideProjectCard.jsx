@@ -5,7 +5,7 @@ const SideProjectCard = ({ image, alt, title, description, link, linkText }) => 
      <div className='project-card'>
           <img src={image} alt={alt} className='project-image'/>
           <div className='project-text'>
-               <h3>{title}</h3>
+               <h2>{title}</h2>
                <p>{description}
                     <a href={link} target='_blank' rel='noopener noreferrer'>
                          {linkText}
