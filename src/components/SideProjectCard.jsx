@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SideProjectCard = ({ image, alt, title, description, link, linkText }) => {
+const SideProjectCard = ({ image, alt, title, description, link, linkText, icons }) => {
   return (
      <div className='project-card'>
           <img src={image} alt={alt} className='project-image'/>
@@ -11,6 +11,17 @@ const SideProjectCard = ({ image, alt, title, description, link, linkText }) => 
                          {linkText}
                     </a>
                </p>
+          </div>
+
+          <div className='made-with'>
+          <h3>Made with:</h3>
+               <div className='projects-icons'>
+                    {icons.map((icon, index) => (
+                         <a key={index} href={icon.link} target='_blank' rel='noopener noreferrer'>
+                         <img src={icon.src} alt={icon.alt} />
+                         </a>
+                    ))}
+               </div>
           </div>
      </div>
   )

@@ -3,7 +3,7 @@
      grid-template-columns: repeat(3, minmax(128px, 192px));
      grid-template-rows:
           3rem
-          256px
+          auto
           3rem;
      gap: 2rem 0.8rem;
      align-items: start;
@@ -48,6 +48,7 @@
 .project-card {
      display: flex;
      flex-direction: column;
+     justify-content: space-between;
      align-items: center;
      padding: 1rem;
      border-radius: 8px;
@@ -56,13 +57,13 @@
      color: var(--text-secondary);
      border-bottom: 4px solid var(--border-primary);
      border-right: 4px solid var(--border-primary);
-     align-self: stretch;
      height: 100%;
 }
 
 .project-text {
      width: 100%;
-     text-align: left;
+     text-align: center;
+     flex-grow: 1;
 }
 
 .project-text h2 {
@@ -87,6 +88,31 @@
      height: auto;
      margin-bottom: 0.5rem;
      border-radius: 4px;
+     object-fit: contain;
+}
+
+.made-with {
+     margin-top: auto;
+     text-align: center;
+}
+
+.made-with h3 {
+     font-family: var(--font-main);
+     font-size: 12px;
+     font-weight: bold;
+     margin: 0.5rem 0;
+}
+
+.projects-icons {
+     display: flex;
+     justify-content: center;
+     gap: 0.5rem;
+     flex-wrap: wrap;
+}
+
+.projects-icons img {
+     width: 32px;
+     height: 32px;
      object-fit: contain;
 }
 
