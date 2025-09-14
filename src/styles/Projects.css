@@ -50,7 +50,7 @@
      flex-direction: column;
      justify-content: space-between;
      align-items: center;
-     padding: 1rem;
+     padding: 8px 14px;
      border-radius: 8px;
      text-decoration: none;
      background-color: var(--box-tertiary);
@@ -58,6 +58,11 @@
      border-bottom: 4px solid var(--border-primary);
      border-right: 4px solid var(--border-primary);
      height: 100%;
+     transition: transform 0.2s;
+}
+
+.project-card:hover {
+     transform: translateY(-4px);
 }
 
 .project-text {
