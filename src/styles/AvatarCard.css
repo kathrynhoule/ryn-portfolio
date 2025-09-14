@@ -56,3 +56,49 @@
      border-radius: 6px;
      padding: 2px;
 }
+
+@media (max-width: 430px) {
+     .avatar-content {
+          display: flex;
+          flex-direction: row;
+          gap: 0.5rem;
+          padding: 1rem;
+          align-items: center;
+     }
+
+     .avatar-info {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          gap: 0.5rem;
+          height: 100%;
+     }
+
+     .quick-facts {
+          margin: 0 6px;
+          text-align: center;
+          flex-shrink: 0;
+     }
+
+     .quick-facts li {
+     line-height: 1.3;
+     }
+
+     .avatar-icons {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 0.25rem;
+          margin-left: 4px;
+     }
+
+     .avatar-img {
+          height: auto;
+          min-width: 96px;
+     }
+
+     .avatar-container {
+          padding: 0.5em;
+     }
+}

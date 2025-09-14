@@ -186,7 +186,8 @@
      }
 
      .home-avatar {
-          width: 200px;
+          min-width: 200px;
+          width: 90%;
           align-self: center;
           flex: 0 0 auto;
      }
@@ -198,18 +199,6 @@
           padding: 0.5em;
           box-sizing: border-box;
           align-self: center;
-     }
-
-     .avatar-container {
-          width: 100%;
-          padding: 0.5em;
-          box-sizing: border-box;
-     }
-
-     .avatar-img {
-          width: 100%;
-          height: auto;
-          max-width: 128px;
      }
 
      .home-links-grid {
