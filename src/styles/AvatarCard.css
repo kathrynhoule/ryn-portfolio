@@ -58,7 +58,7 @@
 }
 
 @media (max-width: 430px) {
-     .avatar-content {
+     .home-avatar .avatar-content {
           display: flex;
           flex-direction: row;
           gap: 0.5rem;
@@ -66,7 +66,7 @@
           align-items: center;
      }
 
-     .avatar-info {
+     .home-avatar .avatar-info {
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -75,17 +75,17 @@
           height: 100%;
      }
 
-     .quick-facts {
+     .home-avatar .quick-facts {
           margin: 0 6px;
           text-align: center;
           flex-shrink: 0;
      }
 
-     .quick-facts li {
+     .home-avatar .quick-facts li {
      line-height: 1.3;
      }
 
-     .avatar-icons {
+     .home-avatar .avatar-icons {
           display: flex;
           justify-content: center;
           flex-wrap: wrap;
@@ -93,38 +93,84 @@
           margin-left: 4px;
      }
 
-     .avatar-img {
+     .home-avatar .avatar-img {
           height: auto;
           min-width: 96px;
      }
 
-     .avatar-container {
+     .home-avatar .avatar-container {
           padding: 0.5em;
      }
 }
 
 @media (max-width: 374px) {
-     .avatar-content {
+     .home-avatar .avatar-content {
           flex-direction: column; 
           align-items: center;
           gap: 0.75rem;
           padding: 0.5rem;
      }
 
-     .avatar-info {
+     .home-avatar .avatar-info {
           width: 100%;
           align-items: center;
           justify-content: center;
           gap: 0.5rem;
      }
 
-     .avatar-icons {
+     .home-avatar .avatar-icons {
           justify-content: center;
           margin-left: 0;
      }
 
-     .avatar-img {
+     .home-avatar .avatar-img {
           width: 100px;
           height: auto;
+     }
+}
+
+@media (max-width: 510px) {
+     .about-avatar .avatar-content {
+          display: flex;
+          flex-direction: row;
+          gap: 0.5rem;
+          padding: 1rem;
+          align-items: center;
+     }
+
+     .about-avatar .avatar-info {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          gap: 0.5rem;
+          height: 100%;
+     }
+
+     .about-avatar .quick-facts {
+          margin-left: 10px;
+          text-align: center;
+          flex-shrink: 0;
+     }
+
+     .about-avatar .quick-facts li {
+     line-height: 1.3;
+     }
+
+     .about-avatar .avatar-icons {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 0.25rem;
+          margin-left: 4px;
+     }
+
+     .about-avatar .avatar-img {
+          height: auto;
+          min-width: 96px;
+     }
+
+     .about-avatar .avatar-container {
+          padding: 0.5em;
      }
 }
