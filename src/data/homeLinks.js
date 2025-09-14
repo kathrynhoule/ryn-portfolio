@@ -20,7 +20,7 @@ const homeLinks = [
           icon: '/assets/temp-projects-icon.png',
           alt: 'Projects',
           title: 'Side Projects',
-          description: 'Check out my side projects',
+          description: 'Check out my personal projects',
           className: 'work-link',
      },
      {
