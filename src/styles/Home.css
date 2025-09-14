@@ -13,23 +13,38 @@
      align-items: center;
      padding: 0.8rem;
      border-radius: 8px;
-     background-color: var(--box-primary);
      color: var(--text-primary);
      font-family: var(--font-title);
      letter-spacing: 0.2em;
-
-     border-bottom: 4px solid var(--border-primary);
-     border-right: 4px solid var(--border-primary);
-
-     box-shadow: 
-          inset 4px 0 0 0 var(--border-accent),
-          inset 0 4px 0 0 var(--border-accent);
 }
 
 .welcome-container h1 {
      font-size: 1rem;
      line-height: 1.2;
      margin: 0;
+}
+
+.hidden-background {
+     background-color: transparent;
+     border: none;
+     box-shadow: none;
+     transition: 
+          background-color 1s ease, 
+          border 1s ease, 
+          box-shadow 1s ease;
+}
+
+.reveal {
+     background-color: var(--box-primary);
+     border-bottom: 4px solid var(--border-primary);
+     border-right: 4px solid var(--border-primary);
+     box-shadow: 
+          inset 4px 0 0 0 var(--border-accent),
+          inset 0 4px 0 0 var(--border-accent);
+     transition: 
+          background-color 1s ease, 
+          border 1s ease, 
+          box-shadow 1s ease;
 }
 
 .cursor {

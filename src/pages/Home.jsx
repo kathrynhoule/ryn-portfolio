@@ -34,7 +34,7 @@ const Home = () => {
 
   return (
         <div className='home-container'>
-          <div className='welcome-container'>
+          <div className={`welcome-container ${typingDone ? 'reveal' : 'hidden-background'}`}>
             <h1>
               {displayedText}
               {!typingDone && <span className="cursor">|</span>}
