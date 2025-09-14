@@ -27,14 +27,13 @@ const sideProjectCards = [
      {
           image: '/assets/temp-project.png',
           alt: 'Project 3',
-          title: '???',
-          description: 'This project was originally an RPG that I was building with Python, but the scope and idea need to be reworked, so for the time being this project card is a placeholder until I can get that figured out. The old repo is still up ',
-          link: 'https://github.com/kathrynhoule/beginner-rpg',
-          linkText: 'here',
+          title: 'This site!',
+          description: 'The site you are on was made by me with React over the course of about 5 days, and I am still tweaking things and updating info. The repo for this site is public on ',
+          link: 'https://github.com/kathrynhoule/ryn-portfolio',
+          linkText: 'Github',
           icons: [
-               { src: '/assets/home-icon-python.png', alt: 'Python'},
+               { src: '/assets/home-icon-react.png', alt: 'React'},
                { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite'},
-               { src: '/assets/temp-projects-icon.png', alt: 'Tiled'},
           ],
      },
 ];
