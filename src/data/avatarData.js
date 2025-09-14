@@ -31,12 +31,10 @@ const avatarData = {
      avatar: '/assets/temp-avatar-about.png',
      facts: [
           'Reach out to me!',
-          'Let’s make something cool',
+          'Let’s make something cool.',
+          'You can also send me an email at ryn.houle@gmail.com'
      ],
      icons: [
-          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
-          { src: '/assets/temp-projects-icon.png', alt: 'GitHub'},
      ],
      },
 };
