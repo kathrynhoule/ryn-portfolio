@@ -4,7 +4,7 @@ const homeLinks = [
           icon: '/assets/temp-projects-icon.png',
           alt: 'About',
           title: 'About Me',
-          description: 'Learn more about me and my story',
+          description: 'Learn more about me and some fun facts',
           className: 'about-link',
      },
      {
