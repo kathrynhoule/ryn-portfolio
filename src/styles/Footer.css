@@ -33,3 +33,19 @@
           gap: 1rem;
      }
 }
+
+@media (max-width: 318px) {
+     .footer-link {
+          justify-content: flex-start;
+          width: auto;
+     }
+
+     .footer-link span {
+          flex: 0 0 auto;
+          white-space: nowrap;
+     }
+
+     .footer-icon {
+          flex: 0 0 auto;
+     }
+}
