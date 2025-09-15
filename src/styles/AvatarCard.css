@@ -174,3 +174,29 @@
           padding: 0.5em;
      }
 }
+
+@media (max-width: 350px) {
+     .about-avatar .avatar-content {
+          flex-direction: column; 
+          align-items: center;
+          gap: 0.75rem;
+          padding: 0.5rem;
+     }
+
+     .about-avatar .avatar-info {
+          width: 100%;
+          align-items: center;
+          justify-content: center;
+          gap: 0.5rem;
+     }
+
+     .about-avatar .avatar-icons {
+          justify-content: center;
+          margin-left: 0;
+     }
+
+     .about-avatar .avatar-img {
+          width: 100px;
+          height: auto;
+     }
+}
