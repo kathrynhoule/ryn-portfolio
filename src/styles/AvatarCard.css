@@ -200,3 +200,10 @@
           height: auto;
      }
 }
+
+@media (max-width: 285px) {
+     .about-avatar {
+          padding: 0;
+          margin: 0;
+     }
+}
