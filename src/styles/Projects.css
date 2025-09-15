@@ -122,6 +122,18 @@
 }
 
 .projects-footer {
-     grid-column: 1 / 4;
-     grid-row: 3;
+     grid-column: 1 / -1;
+}
+
+@media (max-width: 680px) {
+     .projects-container {
+          padding-left: 1rem;
+          padding-right: 1rem;
+          grid-template-columns: 1fr;
+          gap: 1rem;
+     }
+
+     .projects-footer {
+          grid-column: 1 / -1;
+     }
 }
