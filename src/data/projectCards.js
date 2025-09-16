@@ -8,8 +8,8 @@ const projectCards = [
           linkText: 'GitHub',
           icons: [
                { src: '/assets/home-icon-react.png', alt: 'React'},
-               { src: '/assets/temp-projects-icon.png', alt: 'Supabase'},
-               { src: '/assets/temp-projects-icon.png', alt: 'Motion'},
+               { src: '/assets/supabase-icon.png', alt: 'Supabase'},
+               { src: '/assets/motion-icon.png', alt: 'Motion'},
           ],
      },
      {
@@ -21,8 +21,8 @@ const projectCards = [
           linkText: 'GitHub',
           icons: [
                { src: '/assets/home-icon-react.png', alt: 'React'},
-               { src: '/assets/temp-projects-icon.png', alt: 'Supabase'},
-               { src: '/assets/temp-projects-icon.png', alt: 'Motion'},
+               { src: '/assets/supabase-icon.png', alt: 'Supabase'},
+               { src: '/assets/motion-icon.png', alt: 'Motion'},
           ],
      },
      {
@@ -34,8 +34,8 @@ const projectCards = [
           linkText: 'GitHub',
           icons: [
                { src: '/assets/home-icon-react.png', alt: 'React'},
-               { src: '/assets/temp-projects-icon.png', alt: 'MySQL'},
-               { src: '/assets/temp-projects-icon.png', alt: 'Heroku'},
+               { src: '/assets/mysql-icon.png', alt: 'MySQL'},
+               { src: '/assets/heroku-icon.png', alt: 'Heroku'},
           ],
      },
 ];
