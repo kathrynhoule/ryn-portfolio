@@ -7,9 +7,9 @@ const projectCards = [
           link: 'https://github.com/kathrynhoule/book-tracker-app',
           linkText: 'GitHub',
           icons: [
-               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/'},
-               { src: '/assets/supabase-icon.png', alt: 'Supabase', link: 'https://supabase.com/'},
-               { src: '/assets/motion-icon.png', alt: 'Motion', link: 'https://motion.dev/'},
+               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/' },
+               { src: '/assets/supabase-icon.png', alt: 'Supabase', link: 'https://supabase.com/' },
+               { src: '/assets/motion-icon.png', alt: 'Motion', link: 'https://motion.dev/' },
           ],
      },
      {
@@ -20,9 +20,9 @@ const projectCards = [
           link: 'https://github.com/kathrynhoule/eco-challenge-app',
           linkText: 'GitHub',
           icons: [
-               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/'},
-               { src: '/assets/supabase-icon.png', alt: 'Supabase', link: 'https://supabase.com/'},
-               { src: '/assets/motion-icon.png', alt: 'Motion', link: 'https://motion.dev/'},
+               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/' },
+               { src: '/assets/supabase-icon.png', alt: 'Supabase', link: 'https://supabase.com/' },
+               { src: '/assets/motion-icon.png', alt: 'Motion', link: 'https://motion.dev/' },
           ],
      },
      {
@@ -33,9 +33,9 @@ const projectCards = [
           link: 'https://github.com/agilearning-plugin/agilearning-plugin/tree/phase-1',
           linkText: 'GitHub',
           icons: [
-               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/'},
-               { src: '/assets/mysql-icon.png', alt: 'MySQL', link: 'https://www.mysql.com/'},
-               { src: '/assets/heroku-icon.png', alt: 'Heroku', link: 'https://www.heroku.com/'},
+               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/' },
+               { src: '/assets/mysql-icon.png', alt: 'MySQL', link: 'https://www.mysql.com/' },
+               { src: '/assets/heroku-icon.png', alt: 'Heroku', link: 'https://www.heroku.com/' },
           ],
      },
 ];
