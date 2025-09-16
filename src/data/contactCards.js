@@ -5,7 +5,6 @@ const contactCards = [
           icon: '/assets/github-icon.png', 
           alt: 'github icon',
           link: 'https://github.com/kathrynhoule',
-          linkText: 'Github',
      },
      {
           title: 'Bluesky', 
@@ -13,7 +12,6 @@ const contactCards = [
           icon: '/assets/bluesky-icon.png',
           alt: 'bsky icon',
           link: 'https://bsky.app/profile/rynryn365.bsky.social',
-          linkText: 'Bluesky',
      },
      {
           title: 'Itch.io', 
@@ -21,7 +19,6 @@ const contactCards = [
           icon: '/assets/itch-icon.png',
           alt: 'itch.io icon',
           link: 'https://rynryn365.itch.io/',
-          linkText: 'Itch.io',
      },
      {
           title: 'Instagram', 
@@ -29,7 +26,6 @@ const contactCards = [
           icon: '/assets/instagram-icon.png',
           alt: 'insta icon',
           link: 'https://www.instagram.com/rynryn_365/',
-          linkText: 'Instagram',
      },
 ];
 
