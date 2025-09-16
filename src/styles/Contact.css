@@ -9,7 +9,7 @@
      align-items: start;
 
      justify-content: center;
-     padding-top: 4rem;
+     padding-top: 1rem;
 }
 
 .find-me-container {
@@ -154,5 +154,73 @@
 }
 
 @media (max-width: 470px) {
-     
+     .contact-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 1rem;
+     }
+
+     .find-me-container,
+     .contact-avatar,
+     .contact-cards-container,
+     .contact-footer {
+          grid-column: auto;
+          grid-row: auto;
+     }
+
+     .find-me-container,
+     .contact-cards-container,
+     .contact-footer {
+          width: 80%;
+     }
+
+     .contact-avatar {
+          width: 65%;
+     }
+
+     .find-me-container h1 {
+          text-align: center;
+          font-size: 0.8rem;
+     }
+
+     .contact-cards-container {
+          align-items: center;
+     }
+}
+
+@media (max-width: 430px) {
+     .contact-container {
+          padding-top: 2rem;
+     }
+
+     .contact-avatar {
+          width: 70%;
+     }
+
+     .find-me-container h1 {
+          font-size: 0.7rem;
+     }
+}
+
+@media (max-width: 380px) {
+     .find-me-container,
+     .contact-cards-container {
+          width: 95%
+     }
+
+     .contact-avatar {
+          width: 85%;
+     }
+}
+
+@media (max-width: 330px) {
+     .find-me-container,
+     .contact-cards-container {
+          width: 100%
+     }
+
+     .contact-avatar {
+          width: 90%;
+     }
 }
