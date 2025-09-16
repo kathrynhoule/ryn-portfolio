@@ -51,6 +51,7 @@
      display: inline-block;
      width: 1ch;
      animation: blink 0.7s step-end infinite;
+     font-family: monospace;
 }
 
 @keyframes blink {
