@@ -9,9 +9,27 @@ const AvatarCard = ({ avatar, facts, icons, className, style }) => {
 
                     <div className='avatar-info'>
                          <ul className='quick-facts'>
-                              {facts.map((fact, index) => (
-                                   <li key={index}>{fact}</li>
-                              ))}
+                              {facts.map((fact, index) => {
+                                   const emailRegex = /[\w.-]+@[\w.-]+\.\w+/;
+                                   const match = fact.match(emailRegex);
+
+                                   if (match) {
+                                        const email = match[0];
+                                        const parts = fact.split(email);
+
+                                        return (
+                                             <li key={index}>
+                                                  {parts[0]}
+                                                  <a href={`mailto:${email}`} className="email-link">
+                                                  {email}
+                                                  </a>
+                                                  {parts[1]}
+                                             </li>
+                                        );
+                                   }
+
+                                   return <li key={index}>{fact}</li>;
+                              })}
                          </ul>
 
                          <div className='avatar-icons'>

@@ -42,6 +42,18 @@
 
 .quick-facts li {
      margin-bottom: 0.4rem;
+     overflow-wrap: anywhere;
+     white-space: normal; 
+}
+
+.email-link {
+     color: var(--accent-vibrant);
+     text-decoration: underline;
+     word-break: break-word;
+}
+
+.email-link:hover {
+     color: var(--accent-primary);
 }
 
 .avatar-icons {
