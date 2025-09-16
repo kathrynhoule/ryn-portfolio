@@ -14,6 +14,7 @@ const ProjectCard = ({ image, alt, title, description, link, linkText, icons }) 
                     </p>
                </div>
           </div>
+          
           <div className='made-with'>
                <h3>Made with:</h3>
                <div className='projects-icons'>
