@@ -7,8 +7,8 @@ const sideProjectCards = [
           link: 'https://github.com/kathrynhoule/mini-gardening-game',
           linkText: 'GitHub',
           icons: [
-               { src: '/assets/home-icon-react.png', alt: 'React'},
-               { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite'},
+               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/' },
+               { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite', link: 'https://www.aseprite.org/' },
           ],
      },
      {
@@ -19,9 +19,9 @@ const sideProjectCards = [
           link: 'https://github.com/kathrynhoule/virtual-pet-game',
           linkText: 'GitHub',
           icons: [
-               { src: '/assets/home-icon-react.png', alt: 'React'},
-               { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite'},
-               { src: '/assets/temp-project.png', alt: 'Zustand'},
+               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/' },
+               { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite', link: 'https://www.aseprite.org/' },
+               { src: '/assets/zustand-icon.png', alt: 'Zustand', link: 'https://zustand-demo.pmnd.rs/' },
           ],
      },
      {
@@ -32,8 +32,8 @@ const sideProjectCards = [
           link: 'https://github.com/kathrynhoule/ryn-portfolio',
           linkText: 'Github',
           icons: [
-               { src: '/assets/home-icon-react.png', alt: 'React'},
-               { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite'},
+               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/' },
+               { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite', link: 'https://www.aseprite.org/' },
           ],
      },
 ];
