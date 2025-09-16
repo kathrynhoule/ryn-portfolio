@@ -34,7 +34,7 @@
      }
 }
 
-@media (max-width: 318px) {
+@media (max-width: 349px) {
      .footer-link {
           justify-content: flex-start;
           width: auto;
