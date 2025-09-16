@@ -2,9 +2,9 @@
      display: grid;
      grid-template-columns: repeat(3, minmax(128px, 192px));
      grid-template-rows:
-          3rem
           auto
-          3rem;
+          auto
+          auto;
      gap: 0.8rem;
      align-items: start;
 
@@ -119,4 +119,40 @@
 .contact-footer {
      grid-column: 1 / 4;
      grid-row: 3;
+}
+
+@media (max-width: 660px) {
+     .contact-container {
+          grid-template-columns: 1fr 2fr;
+     }
+
+     .contact-avatar{
+          grid-column: 1;
+     }
+
+     .contact-cards-container {
+          grid-column: 2;
+     }
+}
+
+@media (max-width: 590px) {
+     .find-me-container h1 {
+          font-size: 0.9rem;
+     }
+}
+
+@media (max-width: 547px) {
+     .find-me-container h1 {
+          font-size: 0.8rem;
+     }
+}
+
+@media (max-width: 505px) {
+     .find-me-container h1 {
+          font-size: 0.7rem;
+     }
+}
+
+@media (max-width: 470px) {
+     
 }
