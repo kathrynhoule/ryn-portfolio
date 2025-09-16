@@ -1,7 +1,7 @@
 const homeLinks = [
      {
           to: '/about',
-          icon: '/assets/temp-projects-icon.png',
+          icon: '/assets/about-icon.png',
           alt: 'About',
           title: 'About Me',
           description: 'Learn more about me and some fun facts',
@@ -9,7 +9,7 @@ const homeLinks = [
      },
      {
           to: '/main-projects',
-          icon: '/assets/temp-projects-icon.png',
+          icon: '/assets/main-projects-icon.png',
           alt: 'Projects',
           title: 'Main Projects',
           description: 'Check out my work and main projects',
@@ -17,7 +17,7 @@ const homeLinks = [
      },
      {
           to: '/side-projects',
-          icon: '/assets/temp-projects-icon.png',
+          icon: '/assets/side-projects-icon.png',
           alt: 'Projects',
           title: 'Side Projects',
           description: 'Check out my personal projects',
@@ -25,7 +25,7 @@ const homeLinks = [
      },
      {
           to: '/contact',
-          icon: '/assets/temp-projects-icon.png',
+          icon: '/assets/contact-icon.png',
           alt: 'Contact',
           title: 'Contact',
           description: 'Get in touch or find me elsewhere',
