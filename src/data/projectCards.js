@@ -7,9 +7,9 @@ const projectCards = [
           link: 'https://github.com/kathrynhoule/book-tracker-app',
           linkText: 'GitHub',
           icons: [
-               { src: '/assets/home-icon-react.png', alt: 'React'},
-               { src: '/assets/supabase-icon.png', alt: 'Supabase'},
-               { src: '/assets/motion-icon.png', alt: 'Motion'},
+               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/'},
+               { src: '/assets/supabase-icon.png', alt: 'Supabase', link: 'https://supabase.com/'},
+               { src: '/assets/motion-icon.png', alt: 'Motion', link: 'https://motion.dev/'},
           ],
      },
      {
@@ -20,22 +20,22 @@ const projectCards = [
           link: 'https://github.com/kathrynhoule/eco-challenge-app',
           linkText: 'GitHub',
           icons: [
-               { src: '/assets/home-icon-react.png', alt: 'React'},
-               { src: '/assets/supabase-icon.png', alt: 'Supabase'},
-               { src: '/assets/motion-icon.png', alt: 'Motion'},
+               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/'},
+               { src: '/assets/supabase-icon.png', alt: 'Supabase', link: 'https://supabase.com/'},
+               { src: '/assets/motion-icon.png', alt: 'Motion', link: 'https://motion.dev/'},
           ],
      },
      {
           image: '/assets/coming-soon.png',
           alt: 'Project 3',
           title: 'Classroom Game & Quiz App',
-          description: 'This was a prototype app that I worked on for the company AgiLearning, intended for university-level classroom use. The larger app was intended to help teachers gamify learning and easily build their own interactive stories and quizzes. Check out the repo on ',
+          description: 'This was a prototype app that I worked on for AgiLearning. The larger app was intended to help teachers easily build their own interactive stories and quizzes. Note: this was made with Heroku before they became so AI-focused. Check out the repo on ',
           link: 'https://github.com/agilearning-plugin/agilearning-plugin/tree/phase-1',
           linkText: 'GitHub',
           icons: [
-               { src: '/assets/home-icon-react.png', alt: 'React'},
-               { src: '/assets/mysql-icon.png', alt: 'MySQL'},
-               { src: '/assets/heroku-icon.png', alt: 'Heroku'},
+               { src: '/assets/home-icon-react.png', alt: 'React', link: 'https://react.dev/'},
+               { src: '/assets/mysql-icon.png', alt: 'MySQL', link: 'https://www.mysql.com/'},
+               { src: '/assets/heroku-icon.png', alt: 'Heroku', link: 'https://www.heroku.com/'},
           ],
      },
 ];
