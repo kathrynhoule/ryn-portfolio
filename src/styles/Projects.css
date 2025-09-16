@@ -65,6 +65,13 @@
      transform: translateY(-4px);
 }
 
+.project-card-top {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+}
+
 .project-text {
      width: 100%;
      text-align: center;
@@ -131,6 +138,46 @@
           padding-right: 1rem;
           grid-template-columns: 1fr;
           gap: 1rem;
+     }
+
+     .project-card {
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 0.8rem;
+          padding: 1rem;
+          border-radius: 8px;
+     }
+
+     .project-card-top {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 0.8rem;
+          width: 100%;
+     }
+
+     .project-image {
+          width: 80px;
+          height: auto;
+          margin-bottom: 0;
+     }
+
+     .project-text {
+          text-align: center;
+          flex: 1;
+          padding: 0 1rem;
+     }
+
+     .project-text h2 {
+          font-size: 0.8rem;
+     }
+
+     .made-with {
+          margin-top: 0.5rem;
+          width: 100%;
+          text-align: center;
      }
 
      .projects-footer {
