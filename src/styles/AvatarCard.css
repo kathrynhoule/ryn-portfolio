@@ -43,6 +43,7 @@
 .quick-facts li {
      margin-bottom: 0.4rem;
      overflow-wrap: anywhere;
+     word-break: break-word; /* fallback for older safari users */
      white-space: normal; 
 }
 

@@ -1,6 +1,6 @@
 :root {
-  --font-main: 'IBM Plex Mono', monospace;
-  --font-title: 'Press Start 2P', cursive;
+  --font-main: 'IBM Plex Mono', monospace, monospace;
+  --font-title: 'Press Start 2P', cursive, sans-serif;
 
   --bg-primary: #FCFCFC;
   --bg-secondary: #004058;

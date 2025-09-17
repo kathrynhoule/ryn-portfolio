@@ -2,7 +2,7 @@
      display: flex;
      justify-content: space-between;
      padding: 1rem;
-     background-color: none;
+     background-color: transparent;
 }
 
 .footer-link {
