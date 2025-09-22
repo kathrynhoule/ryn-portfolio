@@ -29,7 +29,7 @@ const projectCards = [
           image: '/assets/coming-soon.png',
           alt: 'Project 3',
           title: 'Classroom Game & Quiz App',
-          description: 'This was a prototype app that I worked on for AgiLearning. The larger app was intended to help teachers easily build their own interactive stories and quizzes. Note: this was made with Heroku before they became so AI-focused. Check out the repo on ',
+          description: 'This was a prototype app that I worked on for AgiLearning. The larger app was intended to help teachers easily build their own interactive stories and quizzes. Note: this was made with Heroku before they changed their service. Check out the repo on ',
           link: 'https://github.com/agilearning-plugin/agilearning-plugin/tree/phase-1',
           linkText: 'GitHub',
           icons: [
