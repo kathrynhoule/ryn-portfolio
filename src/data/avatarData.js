@@ -1,6 +1,6 @@
 const avatarData = {
      home: {
-     avatar: '/assets/temp-avatar.png',
+     avatar: '/assets/home-avatar.png',
      facts: [
           'Creative Coder & Designer',
           'React & Python',
@@ -14,7 +14,7 @@ const avatarData = {
      },
      
      about: {
-     avatar: '/assets/temp-avatar-about.png',
+     avatar: '/assets/home-avatar.png',
      facts: [
           'Coffee Lover',
           'Pet Game Enthusiast',
@@ -28,7 +28,7 @@ const avatarData = {
      },
 
      contact: {
-     avatar: '/assets/temp-avatar-about.png',
+     avatar: '/assets/home-avatar.png',
      facts: [
           'Reach out to me!',
           'Let’s make something cool.',
