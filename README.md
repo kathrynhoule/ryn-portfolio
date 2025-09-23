@@ -40,16 +40,6 @@ ___
 The app should run at http://localhost:5173 (Vite)
 
 ___
-📂 Project Structure
-public/
-    assets/       # Images, icons, fonts
-src/
-    components/   # Reusable UI components
-    pages/        # Main pages
-    styles/       # Styles & vars
-    assets/       # Images, icons, favicon
-
-___
 📌 Future Plans
 
     May update some aspects of the design in the future
