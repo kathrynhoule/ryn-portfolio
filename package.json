@@ -1,7 +1,8 @@
 {
   "name": "ryn-portfolio",
+  "homepage": "https://kathrynhoule.github.io/ryn-portfolio",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.jsx",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
