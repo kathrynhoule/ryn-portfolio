@@ -25,17 +25,17 @@ ___
 ___
 🚀 How to run
 
-# Clone the repo
-git clone https://github.com/yourusername/portfolio.git
+    Clone the repo
+    git clone https://github.com/yourusername/portfolio.git
 
-# Navigate to the project folder
-cd ryn-portfolio
+    Navigate to the project folder
+    cd ryn-portfolio
 
-# Install dependencies
-npm install
+    Install dependencies
+    npm install
 
-# Start the development server
-npm run dev   # or npm start
+    Start the development server
+    npm run dev
 
 The app should run at http://localhost:5173 (Vite)
 
