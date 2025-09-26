@@ -4,7 +4,7 @@ ___
     My personal portfolio site, built with React. Icons made in Aseprite. Inspired by the Gameboy Color.
 
 ___
-🔗 Live Site:
+🔗 Live Site: https://kathrynhoule.github.io/ryn-portfolio/
 
 ___
 ✨ Responsive design
