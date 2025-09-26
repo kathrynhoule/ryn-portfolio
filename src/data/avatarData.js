@@ -1,42 +1,50 @@
-const avatarData = {
-     home: {
-     avatar: '/assets/home-avatar.png',
-     facts: [
-          'Creative Coder & Designer',
-          'React & Python',
-          'Based in Canada',
-     ],
-     icons: [
-          { src: '/assets/home-icon-react.png', alt: 'React'},
-          { src: '/assets/home-icon-python.png', alt: 'Python'},
-          { src: '/assets/home-icon-aseprite.png', alt: 'Aseprite'},
-     ],
-     },
-     
-     about: {
-     avatar: '/assets/home-avatar.png',
-     facts: [
-          'Coffee Lover',
-          'Pet Game Enthusiast',
-          'Birds Birds Birds',
-     ],
-     icons: [
-          { src: '/assets/about-icon-coffee.png', alt: 'Coffee'},
-          { src: '/assets/about-icon-tamagotchi.png', alt: 'Tamagotchi'},
-          { src: '/assets/about-icon-bird.png', alt: 'Bird'},
-     ],
-     },
+import homeAvatar from '../assets/home-avatar.png';
+import homeIconReact from '../assets/home-icon-react.png';
+import homeIconPython from '../assets/home-icon-python.png';
+import homeIconAseprite from '../assets/home-icon-aseprite.png';
 
-     contact: {
-     avatar: '/assets/home-avatar.png',
-     facts: [
-          'Reach out to me!',
-          'Let’s make something cool.',
-          'You can also send me an email at ryn.houle@gmail.com'
-     ],
-     icons: [
-     ],
-     },
+import aboutIconCoffee from '../assets/about-icon-coffee.png';
+import aboutIconTamagotchi from '../assets/about-icon-tamagotchi.png';
+import aboutIconBird from '../assets/about-icon-bird.png';
+
+const avatarData = {
+  home: {
+    avatar: homeAvatar,
+    facts: [
+      'Creative Coder & Designer',
+      'React & Python',
+      'Based in Canada',
+    ],
+    icons: [
+      { src: homeIconReact, alt: 'React' },
+      { src: homeIconPython, alt: 'Python' },
+      { src: homeIconAseprite, alt: 'Aseprite' },
+    ],
+  },
+
+  about: {
+    avatar: homeAvatar,
+    facts: [
+      'Coffee Lover',
+      'Pet Game Enthusiast',
+      'Birds Birds Birds',
+    ],
+    icons: [
+      { src: aboutIconCoffee, alt: 'Coffee' },
+      { src: aboutIconTamagotchi, alt: 'Tamagotchi' },
+      { src: aboutIconBird, alt: 'Bird' },
+    ],
+  },
+
+  contact: {
+    avatar: homeAvatar,
+    facts: [
+      'Reach out to me!',
+      'Let’s make something cool.',
+      'You can also send me an email at ryn.houle@gmail.com',
+    ],
+    icons: [],
+  },
 };
 
 export default avatarData;
